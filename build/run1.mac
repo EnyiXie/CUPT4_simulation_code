@@ -1,0 +1,95 @@
+# place the isotopes in the middle of the target(source) 
+#unit defaut centimeter
+
+# Initialize kernel
+/run/initialize
+
+/run/verbose 0
+/event/verbose 0
+/tracking/verbose 0
+#
+#
+/run/setCut 0.01 um
+/gun/particle mu-
+/gun/energy 4 GeV
+/gun//direction 0 -1 0
+
+
+/gun/position 0 30 0 cm
+/run/printProgress 20
+/run/beamOn 10
+
+/gun/position 0 30 5 cm
+/run/beamOn 10
+
+/gun/position 0 30 10 cm
+/run/beamOn 10
+
+/gun/position 0 30 15 cm
+/run/beamOn 10
+
+/gun/position 0 30 20 cm
+/run/beamOn 10
+
+
+/gun/position 5 30 0 cm
+/run/beamOn 10
+
+/gun/position 5 30 5 cm
+/run/beamOn 10
+
+/gun/position 5 30 10 cm
+/run/beamOn 10
+
+/gun/position 5 30 15 cm
+/run/beamOn 10
+
+/gun/position 5 30 20 cm
+/run/beamOn 10
+
+/gun/position 10 30 0 cm
+/run/beamOn 10
+
+/gun/position 10 30 5 cm
+/run/beamOn 10
+
+/gun/position 10 30 10 cm
+/run/beamOn 10
+
+/gun/position 10 30 15 cm
+/run/beamOn 10
+
+
+/gun/position 10 30 20 cm
+/run/beamOn 10
+
+/gun/position 15 30 0 cm
+/run/beamOn 10
+
+/gun/position 15 30 5 cm
+/run/beamOn 10
+
+/gun/position 15 30 10 cm
+/run/beamOn 10
+
+/gun/position 15 30 15 cm
+/run/beamOn 10
+
+/gun/position 15 30 20 cm
+/run/beamOn 10
+
+/gun/position 20 30 0 cm
+/run/beamOn 10
+
+/gun/position 20 30 5 cm
+/run/beamOn 10
+
+/gun/position 20 30 10 cm
+/run/beamOn 10
+
+/gun/position 20 30 15 cm
+/run/beamOn 10
+
+/gun/position 20 30 20 cm
+/run/beamOn 10
+

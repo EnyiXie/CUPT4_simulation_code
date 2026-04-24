@@ -1,0 +1,21 @@
+# place the isotopes in the middle of the target(source) 
+#unit defaut centimeter
+
+# Initialize kernel
+/run/initialize
+
+/run/verbose 0
+/event/verbose 0
+/tracking/verbose 0
+#
+#
+/run/setCut 0.01 um
+/gun/particle mu-
+/gun/energy 4 GeV
+/gun/position 20 10 10 cm
+/gun//direction 0 -1 0
+#
+/run/printProgress 50
+/run/beamOn 100
+# 
+

@@ -1,0 +1,3 @@
+/home/geant4/桌面/deng/software/4cutPMT/2.5pro_1.3_量子效率单层塑闪/build/CMakeFiles/rebuild_cache.dir
+/home/geant4/桌面/deng/software/4cutPMT/2.5pro_1.3_量子效率单层塑闪/build/CMakeFiles/edit_cache.dir
+/home/geant4/桌面/deng/software/4cutPMT/2.5pro_1.3_量子效率单层塑闪/build/CMakeFiles/QF_ND5x2.dir
